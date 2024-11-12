@@ -1,4 +1,4 @@
-name: Taiyi-Master
+name: Taiyi-24.10
 
 on:
   workflow_dispatch:
