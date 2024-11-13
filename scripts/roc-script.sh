@@ -18,7 +18,8 @@ function git_sparse_clone() {
 }
 
 # Alist & AdGuardHome & 集客无线AC控制器 & Lucky & AriaNg
-git_sparse_clone main https://github.com/kenzok8/small-package adguardhome luci-app-adguardhome ddns-go luci-app-ddns-go
+git_sparse_clone main https://github.com/kenzok8/small-package adguardhome luci-app-adguardhome
+git clone --depth=1 https://github.com/sirpdboy/luci-app-ddns-go package/ddns-go
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/passwall
 git clone --depth=1 https://github.com/morytyann/OpenWrt-mihomo package/mihomo
 
