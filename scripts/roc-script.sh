@@ -12,6 +12,7 @@ rm -rf feeds/packages/net/alist
 rm -rf feeds/luci/applications/luci-app-alist
 rm -rf feeds/packages/net/adguardhome
 rm -rf feeds/packages/net/ariang
+rm -rf package/emortal/luci-app-athena-led
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
