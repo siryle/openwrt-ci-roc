@@ -1,4 +1,4 @@
-name: Delete Old Workflows
+name: Clean
 
 on:
   workflow_dispatch:

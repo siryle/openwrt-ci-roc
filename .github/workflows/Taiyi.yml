@@ -1,4 +1,4 @@
-name: Taiyi-Master
+name: Taiyi
 
 on:
   workflow_dispatch:
@@ -8,6 +8,7 @@ on:
 
 env:
   REPO_URL: https://github.com/VIKINGYFY/immortalwrt.git
+  # REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
   REPO_BRANCH: main
   CONFIG_FILE: configs/Taiyi.config
   DIY_SCRIPT: scripts/roc-script.sh
@@ -15,7 +16,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: Taiyi-Master
+  FIRMWARE_TAG: Taiyi
   TZ: Asia/Shanghai
 
 jobs:
